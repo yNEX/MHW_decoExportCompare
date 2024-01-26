@@ -1,0 +1,337 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-12-29 03:06+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: German <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:29
+msgid ""
+"\n"
+"Usage: {0} [options] <old_export> <new_export>\n"
+msgstr ""
+"\n"
+"Gebrauch: {0} [Optionen] <old_export> <new_export>\n"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:30
+msgid ""
+"\n"
+"Compares two export files (JSON or TXT) used for tracking changes in "
+"decorations in Monster Hunter World. "
+msgstr ""
+"\n"
+"Vergleicht zwei Exportdateien (JSON oder TXT), die zur Verfolgung von "
+"Änderungen in Dekorationen in Monster Hunter World verwendet werden. "
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:31
+msgid ""
+"This tool allows tracking changes in decorations and formats the output for "
+"Excel or as text. "
+msgstr ""
+"Dieses Werkzeug ermöglicht es, Änderungen in Dekorationen nachzuverfolgen "
+"und das Ergebnis für Excel oder als Text zu formatieren. "
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:32
+msgid ""
+"\n"
+"For more information on 'Decorations Save Exporter', visit: https://www."
+"nexusmods.com/monsterhunterworld/mods/3495\n"
+msgstr ""
+"\n"
+"Für weitere Informationen über 'Decorations Save Exporter', besuchen Sie: "
+"https://www.nexusmods.com/monsterhunterworld/mods/3495\n"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:33
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+"\n"
+"Optionen:\n"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:34
+msgid ""
+"  -e, --excel    Path and filename for Excel output. Defaults to "
+"'DecoChanges.xlsx' in the current directory.\n"
+msgstr ""
+"  -e, --excel    Pfad und Dateiname für die Excel-Ausgabe. Standardmäßig "
+"'DecoChanges.xlsx' im aktuellen Verzeichnis.\n"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:35
+msgid ""
+"  -t, --text     Path and filename for Text output. Defaults to 'DecoChanges."
+"txt' in the current directory.\n"
+msgstr ""
+"  -t, --text     Pfad und Dateiname für die Text-Ausgabe. Standardmäßig "
+"'DecoChanges.txt' im aktuellen Verzeichnis.\n"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:36
+msgid ""
+"  -b, --both     Create both Excel and Text versions. Defaults to "
+"'DecoChanges.xlsx' and 'DecoChanges.txt'.\n"
+msgstr ""
+"  -b, --both     Erstelle sowohl Excel- als auch Textversionen. "
+"Standardmäßig 'DecoChanges.xlsx' und 'DecoChanges.txt'.\n"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:37
+msgid "  -h, --help     Show this help message\n"
+msgstr "  -h, --help     Zeigt diese Hilfenachricht an\n"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:38
+msgid ""
+"\n"
+"By default, outputs are displayed in the terminal."
+msgstr ""
+"\n"
+"Standardmäßig werden die Ausgaben im Terminal angezeigt."
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:52
+msgid ""
+"\n"
+"File extension not supported. Supported extensions: "
+msgstr ""
+"\n"
+"Dateierweiterung nicht unterstützt. Unterstützte Erweiterungen: "
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:67
+msgid "The JSON files contain identical data. The files will not be compared."
+msgstr ""
+"Die JSON-Dateien enthalten identische Daten. Die Dateien werden nicht "
+"verglichen."
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:83
+msgid "{}, amount: {}"
+msgstr "{}, Anzahl: {}"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:89
+msgid "{}, added: {} | {}"
+msgstr "{}, hinzugefügt: {} | {}"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:136
+msgid "Path to the first JSON file (old decorations)"
+msgstr "Pfad zur ersten JSON-Datei (alte Dekorationen)"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:137
+msgid "Path to the second JSON file (new decorations)"
+msgstr "Pfad zur zweiten JSON-Datei (neue Dekorationen)"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:138
+msgid "Path and filename for Excel output (default: DecoChanges.xlsx)"
+msgstr "Pfad und Dateiname für Excel-Ausgabe (Standard: DecoChanges.xlsx)"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:139
+msgid "Path and filename for Text output (default: DecoChanges.txt)"
+msgstr "Pfad und Dateiname für Text-Ausgabe (Standard: DecoChanges.txt)"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:140
+msgid "Create both Excel and Text versions"
+msgstr "Erstelle sowohl Excel- als auch Textversionen"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:173
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:188
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:265
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:268
+msgid "Decoration"
+msgstr "Dekoration"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:174
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:177
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:210
+msgid "Existing Decorations"
+msgstr "Bestehende Dekorationen"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:179
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:194
+msgid "Total added:"
+msgstr "Insgesamt hinzugefügt:"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:182
+msgid ""
+"\n"
+"No changes to existing decorations compared to previous data. The creation "
+"of the 'Existing Decorations' workbook has been skipped."
+msgstr ""
+"\n"
+"Keine Änderungen an bestehenden Dekorationen im Vergleich zu vorherigen "
+"Daten. Die Erstellung des Arbeitsbuchs 'Bestehende Dekorationen' wurde "
+"übersprungen."
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:189
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:192
+msgid "New Decorations"
+msgstr "Neue Dekorationen"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:197
+msgid ""
+"\n"
+"No new decoration types identified compared to the previous export. The "
+"creation of the 'New Decorations' workbook has been skipped."
+msgstr ""
+"\n"
+"Keine neuen Dekorationstypen im Vergleich zum vorherigen Export "
+"identifiziert. Die Erstellung des Arbeitsbuchs 'Neue Dekorationen' wurde "
+"übersprungen."
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:226
+msgid "Comparison data saved in the Excel file '{0}'."
+msgstr "Vergleichsdaten in der Excel-Datei '{0}' gespeichert."
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:228
+msgid ""
+"\n"
+"No changes found between the two specified files. Therefore, no file was "
+"created."
+msgstr ""
+"\n"
+"Keine Änderungen zwischen den beiden angegebenen Dateien gefunden. Daher "
+"wurde keine Datei erstellt."
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:230
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:257
+msgid ""
+"Error: Access to '{0}' denied. Ensure that the file is not open in another "
+"program and that you have the necessary permissions."
+msgstr ""
+"Fehler: Zugriff auf '{0}' verweigert. Stellen Sie sicher, dass die Datei "
+"nicht in einem anderen Programm geöffnet ist und dass Sie die notwendigen "
+"Berechtigungen haben."
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:240
+msgid "-----Changes to Existing Decorations-----\n"
+msgstr "-----Änderungen an bestehenden Dekorationen-----\n"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:244
+msgid "-----No Changes to Existing Decorations-----\n"
+msgstr "-----Keine Änderungen an bestehenden Dekorationen-----\n"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:247
+msgid ""
+"\n"
+"-----Newly Added Decorations-----\n"
+msgstr ""
+"\n"
+"-----Neu hinzugefügte Dekorationen-----\n"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:251
+msgid ""
+"\n"
+"-----No Newly Added Decorations-----\n"
+msgstr ""
+"\n"
+"-----Keine neu hinzugefügten Dekorationen-----\n"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:253
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:269
+msgid ""
+"\n"
+"Total added (changed decorations): {0}"
+msgstr ""
+"\n"
+"Insgesamt hinzugefügt (geänderte Dekorationen): {0}"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:254
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:270
+msgid ""
+"\n"
+"Total added (new decorations): {0}"
+msgstr ""
+"\n"
+"Insgesamt hinzugefügt (neue Dekorationen): {0}"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:255
+msgid "Comparison data saved in the text file '{0}'."
+msgstr "Vergleichsdaten in der Textdatei '{0}' gespeichert."
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:263
+msgid "Changes to Existing Decorations:"
+msgstr "Änderungen an bestehenden Dekorationen:"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:265
+msgid "Added"
+msgstr "Hinzugefügt"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:265
+msgid "Total"
+msgstr "Gesamt"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:266
+msgid ""
+"\n"
+"Newly Added Decorations:"
+msgstr ""
+"\n"
+"Neu hinzugefügte Dekorationen:"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:268
+msgid "Amount"
+msgstr "Anzahl"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:275
+msgid ""
+"\n"
+"Press Enter to open the created files, or choose one of the options:"
+msgstr ""
+"\n"
+"Drücken Sie Enter, um die erstellten Dateien zu öffnen, oder wählen Sie eine "
+"der Optionen:"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:277
+msgid ""
+"[e] Excel\n"
+"[t] Text\n"
+"[q] Exit"
+msgstr ""
+"[e] Excel\n"
+"[t] Text\n"
+"[q] Beenden"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:279
+msgid ""
+"[e] Excel\n"
+"[q] Exit"
+msgstr ""
+"[e] Excel\n"
+"[q] Beenden"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:281
+msgid ""
+"[t] Text\n"
+"[q] Exit"
+msgstr ""
+"[t] Text\n"
+"[q] Beenden"
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:282
+msgid "Your choice: "
+msgstr "Ihre Wahl: "
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:294
+msgid "Exiting script."
+msgstr "Skript wird beendet."
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:297
+msgid "Invalid input or file not created."
+msgstr "Ungültige Eingabe oder Datei nicht erstellt."
+
+#: C:\Users\Shadow\Desktop\decoCompare\decoComparePy_v1-1_multiLingual.py:300
+msgid ""
+"An unexpected error occurred: \n"
+"{0}"
+msgstr ""
+"Ein unerwarteter Fehler ist aufgetreten: \n"
+"{0}"
+
+#~ msgid "Decoration: {}, Amount: {}"
+#~ msgstr "Dekoration: {}, Anzahl: {}"
+
+#~ msgid "Decoration: {}, added: {}, total: {}"
+#~ msgstr "Dekoration: {}, hinzugefügt: {}, Gesamt: {}"
