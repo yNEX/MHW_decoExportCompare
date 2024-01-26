@@ -2,6 +2,8 @@
 Tailored for [MHW Decorations Export Files](https://github.com/yNEX/mhw_decos_csv_advanced), this tool streamlines the comparison of differences between exports. Quickly discern variations, and export the results to Excel, text, or a command-line table. It highlights new decorations and shows how many are added for existing ones, together with the quantity.
 
 # Usage
+After installing Python run `pip install -r {path to requirements.txt}`.<br>
+Now you can run the script in your terminal by running `python decoCompare.py`
 ```
 Usage: decoCompare.py [options] <old_export> <new_export>
 
@@ -18,6 +20,8 @@ By default, outputs are displayed in the terminal.
 ```
 # Requirements
 -  [Python 3.9+](https://www.python.org/downloads/)
+-  pip (comes with Python)
+-  Python packages listed in `requirements.txt`
 # Todo
 - [ ] Finish localization
 - [ ] Change formula for sum of newly added decos
