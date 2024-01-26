@@ -7,7 +7,6 @@ Usage: decoCompare.py [options] <old_export> <new_export>
 
 Compares two export files (JSON or TXT) used for tracking changes in decorations in Monster Hunter World.
 This tool allows tracking changes in decorations and formats the output for Excel or as text.
-For more information on 'Decorations Save Exporter', visit: https://www.nexusmods.com/monsterhunterworld/mods/3495
 
 Options:
   -e, --excel    Path and filename for Excel output. Defaults to 'DecoChanges.xlsx' in the current directory.
