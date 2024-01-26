@@ -26,5 +26,6 @@ By default, outputs are displayed in the terminal.
 # Todo
 - [ ] Finish localization
 - [ ] Create an executable and distribute
+- [ ] rewrite in Java
 - [x] ~Change formula for sum of newly added decos~
 - [x] ~File opening when pressing just {Enter} instead of providing an option~
