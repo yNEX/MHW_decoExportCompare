@@ -12,9 +12,9 @@ Compares two export files (JSON or TXT) used for tracking changes in decorations
 This tool allows tracking changes in decorations and formats the output for Excel or as text.
 
 Options:
-  -e, --excel    Path and filename for Excel output. Defaults to 'DecoChanges.xlsx' in the current directory.
-  -t, --text     Path and filename for Text output. Defaults to 'DecoChanges.txt' in the current directory.
-  -b, --both     Create both Excel and Text versions. Defaults to 'DecoChanges.xlsx' and 'DecoChanges.txt'.
+  -e, --excel    Path and filename for Excel output. Defaults to 'DecoChanges.xlsx' in the current directory
+  -t, --text     Path and filename for Text output. Defaults to 'DecoChanges.txt' in the current directory
+  -b, --both     Create both Excel and Text versions. Defaults to 'DecoChanges.xlsx' and 'DecoChanges.txt'
   -h, --help     Show this help message
 
 By default, outputs are displayed in the terminal.
