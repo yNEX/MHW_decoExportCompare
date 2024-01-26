@@ -89,7 +89,7 @@ def compare_json(file1, file2, excel_format=False, text_format=False, both_forma
 
 
     # Calculation of the total number of added decorations
-    total_changed = sum(1 for item in changes)
+    total_changed = sum(item['Added'] for item in changes)
     total_new = sum(1 for item in new_decos)
 
 
@@ -175,8 +175,9 @@ if __name__ == "__main__":
                         # Calculate the sum in Excel for "Existing Decorations"
                         worksheet_existing = writer.sheets[_('Existing Decorations')]
                         last_row = len(df_changes.index)
-                        worksheet_existing.write(last_row+2, 0, _('Total added:'))
+                        worksheet_existing.write(last_row+2, 0, _('Total number added:'))
                         worksheet_existing.write_formula(last_row+2, 1, f'=SUM(B2:B{last_row+1})')
+                        worksheet_existing.write_formula(last_row+2, 2, f'=SUM(C2:C{last_row+1})')
                     else:
                         print(_("\nNo changes to existing decorations compared to previous data. The creation of the 'Existing Decorations' workbook has been skipped."))
                     if new_decos:
@@ -190,8 +191,10 @@ if __name__ == "__main__":
                         # Calculate the sum in Excel for "New Decorations"
                         worksheet_new = writer.sheets[_('New Decorations')]
                         last_row = len(df_new_decos.index)
-                        worksheet_new.write(last_row+2, 0, _('Total added:'))
+                        worksheet_new.write(last_row+2, 0, _('Total number added:'))
+                        worksheet_new.write(last_row+3, 0, _('Total number added variations:'))
                         worksheet_new.write_formula(last_row+2, 1, f'=SUM(B2:B{last_row+1})')
+                        worksheet_new.write_formula(last_row+3, 1, f'=COUNTA(A2:A{last_row+1})')
                     else:
                         print(_("\nNo new decoration types identified compared to the previous export. The creation of the 'New Decorations' workbook has been skipped."))
     
@@ -265,8 +268,8 @@ if __name__ == "__main__":
             print(_("\nNewly Added Decorations:"))
             sorted_new_decos = sorted(new_decos_text, key=lambda x: x.split(", ")[0])
             print_table(sorted_new_decos, [_("Decoration"), _("Amount")])
-            print(_("\nTotal added (changed decorations): {0}").format(total_changed))
-            print(_("\nTotal added (new decorations): {0}").format(total_new))
+            print(_("\nTotal number added (changed decorations): {0}").format(total_changed))
+            print(_("\nTotal number added (new decorations): {0}").format(total_new))
             exit()
 
         # User interaction only for created files
